@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Get the element
 
 const main=document.querySelector('main')
@@ -29,3 +30,12 @@ function onDivClick(event){
 for(let div of divs){
   div.addEventListener('click',onDivClick)
 }
+=======
+const main=document.querySelector('main')
+
+function onClick(){
+  console.log('i was clicked')
+}
+
+main.addEventListener('click',onClick)
+>>>>>>> 66c70a8fb75af4b6d2ad80648db2dd5b4410d936
